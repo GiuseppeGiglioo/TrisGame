@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>TRIS</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>il gioco del tris</h1>
+        <div class="descriptionContainer">
+            <pre>
+                Il gioco inizia cliccando su una casella
+                Il primo giocatore avrà il simbolo X <strong>Giocatore X</strong>
+                Il secondo giocatore avrà il simobolo O <strong>Giocatore O</strong>
+                Vince il giocatore che per primo riuscirà ad inserire tre  simboli uguali  consecutivi  in maniera: orizzontale,verticale o diagonale
+                Altrimenti la partita finisce in pareggio
+            </pre>
+        </div>
+        <div class="trisContenitore">
+            <table class="trisTavola">
+                <tr>
+                    <td><button class="cell" onclick="click(1)"></button></td>
+                    <td><button class="cell" onclick="click(2)"></button></td>
+                    <td><button class="cell" onclick="cliccked(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button class="cell" onclick="click(4)"></button></td>
+                    <td><button class="cell" onclick="click(5)"></button></td>
+                    <td><button class="cell" onclick="click(6)"></button></td>
+                </tr>
+                <tr>
+                    <td><button class="cell" onclick="click(7)"></button></td>
+                    <td><button class="cell" onclick="click(8)"></button></td>
+                    <td><button class="cell" onclick="click(9)"></button></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <button class="gameButton" onclick="resetGame()"> Reset </button>
+
+
+
+    </div>
+    <script type="text/javascript" src="tris.js"></script>
+</body>
+ </html>

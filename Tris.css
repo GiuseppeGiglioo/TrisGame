@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: darkblue;
+    text-align: center;
+}
+
+pre {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+    pre::after {
+        content: "";
+        display: block;
+        width: 100%;
+        border-bottom: 2px black;
+    }
+
+.trisContenitore {
+    margin: auto
+}
+
+    .trisContenitore table {
+        margin: 20px;
+    }
+
+        .trisContenitore table tr, td {
+            padding: 20px;
+        }
+
+    .trisContenitore button {
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        width: 100px;
+        height: 100px;
+        font-size: 60px;
+        color: blueviolet;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: whitesmoke;
+    }
+
+        .trisContenitore button:hover {
+            cursor: pointer;
+            background-color: lightblue;
+            border: 2px solid gray;
+        }
+
+.gameButton {
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+    .gameButton:hover {
+        background-color: rgb(0, 70, 176);
+    }
